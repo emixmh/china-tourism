@@ -1,12 +1,12 @@
 # China's Tourism: Project Process
 
 Table of Contents
-1. [Data Collection](collection)
-2. [Data Cleaning](cleaning)
-3. [Analysis & Insights](analysis)
-4. [Dataset Schema & Info](info)
+1. [Data Collection](#collection)
+2. [Data Cleaning](#cleaning)
+3. [Analysis & Insights](#analysis)
+4. [Dataset Schema & Info](#info)
 
-## Data Collection <a name="collection"></a>
+## Data Collection <a name="collection"></a> #collection
 
 Data was collected from the National Bureau of Statistics of China's (NBS) [English language site](https://data.stats.gov.cn/english/).
 
