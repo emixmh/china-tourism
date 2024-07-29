@@ -6,7 +6,7 @@ Table of Contents
 3. [Analysis & Insights](#analysis)
 4. [Dataset Schema & Info](#info)
 
-## Data Collection <a name="collection"></a> #collection
+## Data Collection
 
 Data was collected from the National Bureau of Statistics of China's (NBS) [English language site](https://data.stats.gov.cn/english/).
 
@@ -14,7 +14,7 @@ The NBS data was originally 4 separate CSV files that were imported and combined
 
 The English titles were cross referenced with the original titles from the Bureau's [Chinese language site](https://data.stats.gov.cn/staticreq.htm). The titles were renamed to be more concise before cleaning in Jupyter Notebook.
 
-## Data Cleaning <a name="cleaning"></a>
+## Data Cleaning
 
 All code can be seen in [.ipynb file](china.ipynb).
 
@@ -44,9 +44,9 @@ Two tables were made, one with all currency converted to CNY and the other to US
 
 The analysis uses currency set to USD.
 
-## Analysis & Insights <a name="analysis"></a>
+## Analysis & Insights
 
-## Dataset Info <a name="info"></a>
+## Dataset Info
 
 Note from NBS:
 - Population data for 2010 and 2020 are projections from the population census of that year and data for the remaining years are projections from the Annual Population Sample Survey. 
