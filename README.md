@@ -2,7 +2,7 @@
 
 Objective: Analyze how tourism influences the national economy.
 
-More details can be found in the [project process writeup](write_up.md).
+More details can be found in the [project process writeup](writeup.md).
 
 ## Data Dimensions & Measures
 
