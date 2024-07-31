@@ -1,22 +1,24 @@
 # China's Tourism: Project Process
 
+Objective: Analyze how tourism influences the national economy.
+
 Table of Contents
 1. [Data Collection](#collection)
 2. [Data Cleaning](#cleaning)
 3. [Analysis & Insights](#analysis)
 4. [Dataset Schema & Info](#info)
 
-## Data Collection
+## Data Collection <a name="collection"></a>
 
-Data was collected from the National Bureau of Statistics of China's (NBS) [English language site](https://data.stats.gov.cn/english/).
+Data was collected from the National Bureau of Statistics of China 国家统计局 (NBS)'s  [English language site](https://data.stats.gov.cn/english/).
 
 The NBS data was originally 4 separate CSV files that were imported and combined in Microsoft Excel.
 
 The English titles were cross referenced with the original titles from the Bureau's [Chinese language site](https://data.stats.gov.cn/staticreq.htm). The titles were renamed to be more concise before cleaning in Jupyter Notebook.
 
-## Data Cleaning
+## Data Cleaning <a name="cleaning"></a>
 
-All code can be seen in [.ipynb file](china.ipynb).
+All code can be seen in [.ipynb file](china_tourism.ipynb).
 
 ### 1. Translation Issues
 
@@ -44,9 +46,33 @@ Two tables were made, one with all currency converted to CNY and the other to US
 
 The analysis uses currency set to USD.
 
-## Analysis & Insights
+## Analysis & Insights <a name="analysis"></a>
 
-## Dataset Info
+China's population has grown 8.45%. The population transitioned from 58% living in rural areas to only 34%. This trend can also be seen when looking at domestic tourists. The number of tourists increased over time and the percentage of tourists coming from rural areas transitioned to those coming from urban areas.
+
+![image: population vs domestic tourist count over time](/images/urban_rural_comparison.png)
+
+Per capita disposable income has increased. Total disposable income is 8x greater than 2004 and wage disposable income is 7x greater.
+
+Overall, travel spending has also increased over time. Tourists from urban areas have 2x higher expenditures than tourists from rural areas.
+
+However, disposable income and domestic travel spending have not increased proportionally. In 2004 domestic travel spending accounted for 12.4% of wage disposable income, in 2019 it was 5.5%, and in 2023 it was only 4.6%. This decrease despite higher spending and wealth would suggest that Chinese citizens are utilizing their extra cash in other sectors besides domestic tourism.
+
+![image: disposable income, domestic tourism expenditure](/images/income_exp.png)
+
+![image: percent of income used for domestic tourism expenditure](/images/income_exp_pct.png)
+
+### Other Insights
+- 2023 saw a nearly 3 million person decrease since 2021, attributed to COVID-19.
+- Total disposable income has increased at a faster rate than wage disposable income.
+- As the number of travel agencies have increased, the amount of star-rated hotels have decreased. Both spiked in 2019.
+- Travel agencies have slightly increased since 2021, but hotels continue their downward trend.
+- As the number of travel agencies increase, so do the number of domestic tourists and domestic tourism revenue.
+- Between 2004 and 2019 number of domestic tourists increased 18% (4.9 billion) and international tourists increased 75% (36 million).
+- Domestic and international tourism have picked back up after 2020 restrictions were lifted, but have no returned to 2019 levels.
+- Domestic tourists have been increasing the amount of trips they take each year.
+
+## Dataset Info <a name="info"></a>
 
 Note from NBS:
 - Population data for 2010 and 2020 are projections from the population census of that year and data for the remaining years are projections from the Annual Population Sample Survey. 
